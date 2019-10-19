@@ -84,10 +84,10 @@ void loop() {
     digitalWrite(mrb, HIGH);
   }
   if (request.indexOf("/clin") != -1)  {
-    digitalWrite(clin, HIGH);
+    analogWrite(clin, HIGH);
   }
   if (request.indexOf("/clout") != -1)  {
-    digitalWrite(clout, HIGH);
+    analogWrite(clout, HIGH);
   } 
   
   if (request.indexOf("/arup") != -1)  {
