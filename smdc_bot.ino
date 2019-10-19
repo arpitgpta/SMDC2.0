@@ -1,8 +1,7 @@
-//Visit www.roboshala.com for more details on NodeMCU and other projects.
 
 #include <ESP8266WiFi.h>
  
-const char* ssid = "Alokom"; // SSID i.e. Service Set Identifier is the name of your WIFI
+const char* ssid = "arpit"; // SSID i.e. Service Set Identifier is the name of your WIFI
 const char* password = "42224222"; // Your Wifi password, in case you have open network comment the whole statement.
  
 int ledPin = 13; // GPIO13 or for NodeMCU you can directly write D7 
